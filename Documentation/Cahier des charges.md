@@ -90,5 +90,3 @@ Le design doit être propre, moderne, et professionnel, reflétant les compéten
 - **Accessibilité** : Le site doit être accessible à tous les utilisateurs, y compris ceux utilisant des technologies d'assistance.
 
 ---
-
-Ce cahier des charges devrait fournir une base solide pour le développement de ton portfolio de développeur web. Si tu as des besoins spécifiques ou des questions supplémentaires, n'hésite pas à les ajouter !
