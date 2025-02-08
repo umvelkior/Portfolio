@@ -15,7 +15,9 @@
     font-style: italic;
 }
 
-element {
+/**********************************************************************************************************/
+
+:root {
     --first_color:#004add;
     --second_color:#5271ff;
     --third_color:#38b6ff;
@@ -25,12 +27,30 @@ body{
     font-family: Gotham;
 }
 
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************************************************************************************************/
+
 .menu{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--second_color);
 }
 
-header{
+.Part{
+}
+
+.icon_link{
     display: flex;
+    justify-content: space-around;
 }
