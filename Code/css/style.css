@@ -34,20 +34,19 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 /*********************************************************************************************************/
 
 .menu{
-    display: flex;
-    flex-direction: column;
+    display: none;
     align-items: flex-start;
     background-color: var(--second_color);
 }
 
 .Part{
+    display: flex;
 }
 
 .icon_link{
