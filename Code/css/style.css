@@ -12,9 +12,25 @@
 @font-face {
     font-family: Gotham;
     src: url(Gotham/Gotham-MediumItalic.otf);
-    font-weight: italic;
+    font-style: italic;
+}
+
+element {
+    --first_color:#004add;
+    --second_color:#5271ff;
+    --third_color:#38b6ff;
 }
 
 body{
     font-family: Gotham;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header{
+    display: flex;
 }
