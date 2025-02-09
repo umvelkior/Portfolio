@@ -21,6 +21,7 @@
     --first_color:#004add;
     --second_color:#5271ff;
     --third_color:#38b6ff;
+    --dark_backgroung_color: #000e38;
 }
 
 body{
@@ -31,8 +32,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
-    background-color: white;
+    position: fixed;
 }
 
 main{
@@ -42,13 +42,18 @@ main{
 }
 
 /*********************************************************************************************************/
+.Pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .menu{
     display: none;
     background-color: white;
     flex-direction: column;
     position:fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     padding: 20px;
     border-style: solid;
@@ -73,7 +78,7 @@ main{
     color: var(--first_color);
     font-size: 50px;
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     padding: 10px 20px;
     border-style: solid;
@@ -88,6 +93,17 @@ main{
 }
 
 .Part{
+    display: flex;
+    flex-direction: column;
+}
+
+.mini_Part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Competences{
     display: flex;
     flex-direction: column;
 }
