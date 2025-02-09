@@ -29,6 +29,10 @@ body{
 
 header{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
 }
 
 main{
@@ -41,8 +45,28 @@ main{
 
 .menu{
     display: none;
-    align-items: flex-start;
-    background-color: var(--second_color);
+    background-color: var(--third_color);
+    flex-direction: column;
+    position:absolute;
+    top: 100px;
+    padding: 20px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+}
+.menu a:hover{
+    color: white;
+}
+
+.openbtn{
+    color: var(--first_color);
 }
 
 .Part{
