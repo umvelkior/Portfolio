@@ -10,15 +10,17 @@
 </head>
 <body>
     <header>
-        <a href="javascript:void(0)" class="openbtn" id="openbtn" onclick="openMenu()"><i class="fa-solid fa-ellipsis"></i></a>
-        <div class="menu" id="menu">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a>
-            <a href="#Expériences_professionnelles">Expériences professionnelles</a>
-            <a href="#Hard_skills">hard Skills</a>
-            <a href="#Soft_skills">Soft Skills</a>
-            <a href="#Mad_skills">Mad Skills</a>
-            <a href="#Me_contacter">Me Contacter</a>
-        </div>
+        <nav>
+            <a href="javascript:void(0)" class="openbtn" id="openbtn" onclick="openMenu()"><i class="fa-solid fa-ellipsis"></i></a>
+            <div class="menu" id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a>
+                <a href="#Expériences_professionnelles">Expériences professionnelles</a>
+                <a href="#Hard_skills">hard Skills</a>
+                <a href="#Soft_skills">Soft Skills</a>
+                <a href="#Mad_skills">Mad Skills</a>
+                <a href="#Me_contacter">Me Contacter</a>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="Home">
@@ -47,6 +49,15 @@
                     <a href="https://github.com/umvelkior"><i class="fa-brands fa-github"></i></a>
                     <p ><i class="fa-brands fa-discord">umvelkior</i></p>
                 </div>
+                <form action="/action_page.php">
+                    <label for="fname">Prénom :</label><br>
+                    <input type="text" id="fname" name="fname" value="Jean"><br>
+                    <label for="lname">Nom :</label><br>
+                    <input type="text" id="lname" name="lname" value="Dupont"><br>
+                    <label for="lname">Email :</label><br>
+                    <input type="text" id="email" name="email" value="exemple@gmail.com"><br><br>
+                    <input type="submit" value="Envoyer">
+                </form>
             </div>
         </section>
     </main>

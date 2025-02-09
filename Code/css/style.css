@@ -112,3 +112,26 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
+/**************************************************************************************************************/
+
+/* Pour les écrans larges (ordinateurs) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Pour les tablettes */
+@media (max-width: 1023px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Pour les smartphones */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
