@@ -45,25 +45,26 @@ main{
 
 .menu{
     display: none;
-    background-color: var(--third_color);
+    background-color: white;
     flex-direction: column;
     position:fixed;
     bottom: 20px;
+    right: 20px;
     padding: 20px;
-    border-radius: 2px;
     border-style: solid;
     border-color: grey;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .menu a{
     display: flex;
     text-decoration: none;
-    justify-content: center;
+    justify-content: flex-end;
     color: black;
+    font-size: 20px;
 }
 .menu a:hover{
-    color: white;
+    color: var(--first_color);
 }
 
 .openbtn{
@@ -73,6 +74,12 @@ main{
     font-size: 50px;
     position: fixed;
     bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 25px;
+    background-color: white;
 }
 
 .closebtn{
@@ -82,6 +89,7 @@ main{
 
 .Part{
     display: flex;
+    flex-direction: column;
 }
 
 .icon_link{
