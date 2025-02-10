@@ -15,6 +15,27 @@
     font-style: italic;
 }
 
+/* Pour les écrans larges (ordinateurs) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Pour les tablettes */
+@media (max-width: 1023px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Pour les smartphones */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 /**********************************************************************************************************/
 
 :root {
@@ -26,6 +47,8 @@
 
 body{
     font-family: Gotham;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -95,6 +118,7 @@ main{
 .Part{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .mini_Part {
@@ -113,25 +137,48 @@ main{
     justify-content: space-around;
 }
 
-/**************************************************************************************************************/
-
-/* Pour les écrans larges (ordinateurs) */
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
+.skills_menu{
+    display:flex;
 }
 
-/* Pour les tablettes */
-@media (max-width: 1023px) and (min-width: 768px) {
-    body {
-        font-size: 16px;
-    }
+.skillsbtn{
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px 10px;
 }
 
-/* Pour les smartphones */
-@media (max-width: 767px) {
-    body {
-        font-size: 14px;
-    }
+.skillsbtn:hover{
+    color:#004add;
+}
+
+/******************************************************************************************************/
+
+#Hard_skills{
+    display: flex;
+}
+
+#Soft_skills{
+    display: none;
+}
+
+#Mad_skills{
+    display: none;
+}
+
+#hardbtn{
+    margin-right: 5px;
+    color: var(--first_color);
+    border-color: var(--first_color);
+}
+
+#softbtn{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#madbtn{
+    margin-left: 5px;
 }
