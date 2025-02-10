@@ -148,7 +148,7 @@ main{
     flex-direction: column;
 }
 
-.Home h1,p{
+.Home h1, Home p{
     color: var(--light_background_color);
     max-width: 75%;
 }
