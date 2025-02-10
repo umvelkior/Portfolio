@@ -145,6 +145,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.Home h1,p{
+    color: var(--light_background_color);
+    max-width: 75%;
 }
 
 .hero-pic {
@@ -348,4 +354,18 @@ main{
 
 #darkbody{
     background-color: var(--dark_backgroung_color);
+}
+
+#CVbtn{
+    text-decoration: none;
+    color: var(--light_background_color);
+    padding: 10px;
+    margin-top: 50px;
+    border-color: var(--first_color);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#CVbtn:hover{
+    color: var(--first_color);
 }
