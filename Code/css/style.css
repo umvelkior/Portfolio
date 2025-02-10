@@ -153,6 +153,7 @@ main{
     max-width: 75%;
 }
 
+
 .hero-pic {
     width: 300px;
     height: 300px;
@@ -368,4 +369,8 @@ main{
 
 #CVbtn:hover{
     color: var(--first_color);
+}
+
+#txt_home{
+    color: var(--light_background_color);
 }
