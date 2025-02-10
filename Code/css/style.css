@@ -140,7 +140,7 @@ main{
 
 .Home{
     background-color: var(--dark_backgroung_color);
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -185,7 +185,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 88vh;
     width: 100%;
     margin-top: 70px;
 }
@@ -339,4 +339,13 @@ main{
 #submit:hover{
     background-color: var(--first_color);
     color: var(--dark_backgroung_color);
+}
+
+#white_footer{
+    color: var(--light_background_color);
+    background-color: var(--dark_backgroung_color);
+}
+
+#darkbody{
+    background-color: var(--dark_backgroung_color);
 }
