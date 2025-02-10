@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maël Bareilhe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <article class="logo-pic">
+            <img src="img/lev_14275337.png" alt="Photo de profil">
+        </article>
+        <nav>
+            <a href="javascript:void(0)" class="openbtn" id="openbtn" onclick="openMenu()"><i class="fa-solid fa-ellipsis"></i></a>
+            <div class="menu" id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a>
+                <a href="index.html"><i class="fa-solid fa-house-chimney"></i></a>
+                <a href="projet.html">Mes projets</a>
+                <a href="Competences.html">Compétences</a>
+                <a href="contact.html">Me Contacter</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Pres">
+            <div class="Part" id="Competences">
+                <h1>Mes Compétences</h1>
+                <nav class = skills_menu>
+                    <a href="javascript:void(0)" id="hardbtn" class="skillsbtn" onclick="openHard()">Hard Skills</i></a>
+                    <a href="javascript:void(0)" id="softbtn" class="skillsbtn" onclick="openSoft()">Soft Skills</i></a>
+                    <a href="javascript:void(0)" id="madbtn" class="skillsbtn"onclick="openMad()">Mad Skills</i></a>
+                </nav>
+                <div class="skills_grp">
+                    <div class="mini_Part" id="Hard_skills">
+                        <h2>Hard Skills</h2><br>
+                        <p>
+                            Développement en C, Python et Web<br>
+                            Suite Office 365<br>
+                            Montage photo et vidéo<br>
+                            Anglais Niveau B2<br>
+                            Allemand Niveau B1<br>
+                        </p>
+                    </div>
+                    <div class="mini_Part" id="Soft_skills">
+                        <h2>Soft Skills</h2>
+                        <p>
+                            Capacité d’adaptation <br>
+                            Sens de l’organisation<br>
+                            Agile<br>
+                            Communication et travail en équipe<br>
+                            Autonome<br>
+                            Flexible<br>
+                            Rigoureux<br>
+                            Persévérant<br>
+                            Réactif<br>
+                        </p>
+                    </div>
+                    <div class="mini_Part" id="Mad_skills">
+                        <h2>Mad Skills</h2>
+                        <p>
+                            sports nautiques (catamaran et voilier)<br>
+                            judo<br>
+                            tennis<br>
+                            randonnée<br>
+                            musique (guitare et piano)<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

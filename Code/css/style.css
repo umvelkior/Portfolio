@@ -49,8 +49,6 @@
 
 :root {
     --first_color:#004add;
-    --second_color:#5271ff;
-    --third_color:#38b6ff;
     --dark_backgroung_color: #000e38;
     --light_background_color: #d3d3d3;
 }
@@ -103,7 +101,6 @@ main{
 }
 
 .menu a{
-    display: flex;
     text-decoration: none;
     justify-content: flex-end;
     color: var(--light_background_color);
@@ -115,13 +112,12 @@ main{
 }
 
 .openbtn{
-    display: flex;
     text-decoration: none;
     color: var(--light_background_color);
     font-size: 50px;
     top: 20px;
-    right: 20px;
     padding: 10px 20px;
+    margin-right: 10px;
 }
 
 .openbtn:hover{
@@ -182,6 +178,7 @@ main{
     align-items: center;
     height: 100vh;
     width: 100%;
+    margin-top: 70px;
 }
 
 .mini_Part {

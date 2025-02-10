@@ -18,7 +18,7 @@ function openHard() {
 
     document.getElementById("Hard_skills").style.display = "flex";
     document.getElementById("Soft_skills").style.display = "none";
-    document.getElementById("menu").style.display = "none";
+    document.getElementById("Mad_skills").style.display = "none";
 }
 
 function openSoft() {
